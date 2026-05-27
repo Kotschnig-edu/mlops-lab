@@ -1,6 +1,5 @@
-import pandas  as pd
-
-DATASET = "./data/raw/data.csv"
+import pandas as pd
+from globals import ORIGIN_DATASET as DATASET
 
 df = pd.read_csv(DATASET)
 print(df.shape)
